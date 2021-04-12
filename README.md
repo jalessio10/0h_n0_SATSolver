@@ -8,7 +8,7 @@ In order to use the solver, you will need the z3-solver package installed you ca
 pip install z3-solver
 ```
 ### Using the solver
-Set the dimension to the size of the board (for example, 6 for a 6x6). Then set the board instance for the puzzle you'd like to solve. here is an example:
+Set the dimension to the size of the board (for example, 6 for a 6x6). Then set the board instance for the puzzle you'd like to solve. Here is an example of a 9x9 instance:
 ```
 instance =   ((1, -1, -1, 4, -1, -1, -1, -1, 8),
               (-1, -1, 0, 4, -1, -1, -1, 3, 7),
